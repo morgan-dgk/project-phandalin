@@ -6,7 +6,7 @@ const path = require("path");
 const ejs = require("ejs");
 const mongoose = require('mongoose')
 const query = require("./modules/queries")
-require('dotenv').config()
+// require('dotenv').config()
 
 mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true})
 const db = mongoose.connection
